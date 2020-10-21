@@ -1,0 +1,109 @@
+@media only screen and (max-width:1300px){
+    .product-desc{
+        flex-flow: column nowrap;
+        margin: 2%;
+    }
+    .product-desc p{
+        margin: 1% auto;
+    }
+
+    #man-headset {
+        width: 100%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #login_button_footer button{
+       display: none;
+    }
+
+}
+
+
+/*Tablet breakpoint styling */
+@media only screen and (max-width:800px){
+
+#login_button button{
+    display: none;
+}
+#headset{
+    display: none;
+
+} 
+
+nav{
+    padding: 1%;
+}
+#man-headset {
+    width: 70%;
+}
+
+footer{
+    display: flex;
+}
+
+#footer-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+button{
+        text-transform: uppercase;
+        background-color: rgb(1, 1, 75);
+        border: transparent 1px solid;
+        outline: none;
+        color: white;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        width: 150px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+}
+
+
+
+/* Mobile breakpoint styling */
+
+@media only screen and (max-width: 600px) {
+    #logo{
+        width: 30%;
+    }
+    .product-desc h3{
+        font-size: 1.5rem;
+    padding: 2%;
+    }
+    
+    .product-desc p{
+        width: 70%;
+        padding: 1%;
+        font-size: 1rem;
+        font-weight: lighter;
+        margin-bottom: 5% ;
+        
+    
+    }
+#man-headset {
+    width: 50%;
+    margin-bottom: 8% ;
+
+
+}
+
+
+ /* about page */
+ #about-flex, #about-flex-2, #about-flex-3{
+     flex-flow: column nowrap;
+     align-items: center;
+ }   
+
+}
