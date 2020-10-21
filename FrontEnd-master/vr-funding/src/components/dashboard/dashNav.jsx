@@ -31,7 +31,7 @@ const DashNav = props => {
                 src={logo}
                 onClick={() => {
                     logOut();
-                    window.location.assign("https://vrfundingplatform.netlify.app/");
+                    window.location.assign("https://bw-vr-funding.vercel.app/");
                 }}
             />
             <input
